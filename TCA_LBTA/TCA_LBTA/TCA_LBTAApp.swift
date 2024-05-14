@@ -5,7 +5,7 @@
 //  Created by iMac on 14.05.2024.
 //
 
-import ComposableArchitecture
+import Comp
 import SwiftUI
 
 @main

@@ -11,10 +11,11 @@
 		8882DE6F2BF3606100DC2275 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DE6E2BF3606100DC2275 /* CounterView.swift */; };
 		8882DE712BF3606300DC2275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8882DE702BF3606300DC2275 /* Assets.xcassets */; };
 		8882DE742BF3606300DC2275 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8882DE732BF3606300DC2275 /* Preview Assets.xcassets */; };
-		8882DE7E2BF3606300DC2275 /* TCA_LBTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DE7D2BF3606300DC2275 /* TCA_LBTATests.swift */; };
 		8882DE882BF3606300DC2275 /* TCA_LBTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DE872BF3606300DC2275 /* TCA_LBTAUITests.swift */; };
 		8882DE8A2BF3606300DC2275 /* TCA_LBTAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DE892BF3606300DC2275 /* TCA_LBTAUITestsLaunchTests.swift */; };
 		8882DE982BF3642900DC2275 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8882DE972BF3642900DC2275 /* CounterFeature.swift */; };
+		88CA186D2BF389C700C931BC /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA186C2BF389C700C931BC /* CounterFeatureTests.swift */; };
+		88CA18722BF3934800C931BC /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CA18712BF3934800C931BC /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +42,13 @@
 		8882DE702BF3606300DC2275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8882DE732BF3606300DC2275 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8882DE792BF3606300DC2275 /* TCA_LBTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCA_LBTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8882DE7D2BF3606300DC2275 /* TCA_LBTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_LBTATests.swift; sourceTree = "<group>"; };
 		8882DE832BF3606300DC2275 /* TCA_LBTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCA_LBTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8882DE872BF3606300DC2275 /* TCA_LBTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_LBTAUITests.swift; sourceTree = "<group>"; };
 		8882DE892BF3606300DC2275 /* TCA_LBTAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_LBTAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8882DE972BF3642900DC2275 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		88CA186B2BF3829700C931BC /* TCA-LBTA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-LBTA-Info.plist"; sourceTree = SOURCE_ROOT; };
+		88CA186C2BF389C700C931BC /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		88CA18712BF3934800C931BC /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				8882DE7C2BF3606300DC2275 /* TCA_LBTATests */,
 				8882DE862BF3606300DC2275 /* TCA_LBTAUITests */,
 				8882DE6A2BF3606100DC2275 /* Products */,
+				88CA186E2BF38A3800C931BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +104,7 @@
 				8882DE6C2BF3606100DC2275 /* TCA_LBTAApp.swift */,
 				8882DE972BF3642900DC2275 /* CounterFeature.swift */,
 				8882DE6E2BF3606100DC2275 /* CounterView.swift */,
+				88CA18712BF3934800C931BC /* NumberFactClient.swift */,
 				8882DE702BF3606300DC2275 /* Assets.xcassets */,
 				8882DE722BF3606300DC2275 /* Preview Content */,
 			);
@@ -118,7 +122,7 @@
 		8882DE7C2BF3606300DC2275 /* TCA_LBTATests */ = {
 			isa = PBXGroup;
 			children = (
-				8882DE7D2BF3606300DC2275 /* TCA_LBTATests.swift */,
+				88CA186C2BF389C700C931BC /* CounterFeatureTests.swift */,
 			);
 			path = TCA_LBTATests;
 			sourceTree = "<group>";
@@ -130,6 +134,13 @@
 				8882DE892BF3606300DC2275 /* TCA_LBTAUITestsLaunchTests.swift */,
 			);
 			path = TCA_LBTAUITests;
+			sourceTree = "<group>";
+		};
+		88CA186E2BF38A3800C931BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,8 @@
 				8882DE7B2BF3606300DC2275 /* PBXTargetDependency */,
 			);
 			name = TCA_LBTATests;
+			packageProductDependencies = (
+			);
 			productName = TCA_LBTATests;
 			productReference = 8882DE792BF3606300DC2275 /* TCA_LBTATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -268,6 +281,7 @@
 				8882DE982BF3642900DC2275 /* CounterFeature.swift in Sources */,
 				8882DE6F2BF3606100DC2275 /* CounterView.swift in Sources */,
 				8882DE6D2BF3606100DC2275 /* TCA_LBTAApp.swift in Sources */,
+				88CA18722BF3934800C931BC /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8882DE7E2BF3606300DC2275 /* TCA_LBTATests.swift in Sources */,
+				88CA186D2BF389C700C931BC /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
