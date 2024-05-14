@@ -38,6 +38,12 @@ struct CounterView: View {
                 .clipShape(.rect(cornerRadius: 10))
             }
             
+            Button(store.isTimerRunning ? "Stop timer" : "Start timer") {
+                store.send(.toggleTimerButtonTapped)
+            }
+            .padding()
+            .clipShape(.rect(cornerRadius: 10))
+            
             Button("Fact") {
                 store.send(.factButtonTapped)
             }
